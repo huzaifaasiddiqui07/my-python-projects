@@ -29,7 +29,7 @@ def guess_num():
         guess = int(input(f"Attempts left: {attempts} → Enter your guess: "))
 
         if guess == number:
-            print("\n🎉 Congratulations! You guessed it right!")
+            print("\n Congratulations! You guessed it right!")
             return
         elif guess < number:
             print("Too low! Try higher.\n")
@@ -38,7 +38,7 @@ def guess_num():
 
         attempts -= 1
 
-    print(f"\n❌ You Lost! The correct number was {number}.")
+    print(f"\n You Lost! The correct number was {number}.")
     print("Better luck next time!")
 
 
