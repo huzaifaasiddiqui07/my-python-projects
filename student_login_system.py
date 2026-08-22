@@ -64,7 +64,7 @@ user_password = input("Enter password: ")
 
 if user_name in student_database:
     if student_database[user_name]['password'] == user_password:
-        print("\n✅ Login Successful!")
+        print("\n Login Successful!")
         print("-" * 40)
 
         student_data = student_database[user_name]
@@ -75,6 +75,6 @@ if user_name in student_database:
         apply_concession(percentage, fees)
 
     else:
-        print("\n❌ Incorrect password! Access Denied.")
+        print("\n Incorrect password! Access Denied.")
 else:
-    print("\n❌ Username not found in the system.")
+    print("\n Username not found in the system.")
